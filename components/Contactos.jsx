@@ -58,6 +58,7 @@ const Contactos = () => {
                   <input
                     type="text"
                     name="nombre"
+                    placeholder="Ingrese su nombre completo..."
                     required
                     className="border-2 rounded-lg p-3 flex focus:outline-none border-gray-400"
                   />
@@ -69,6 +70,7 @@ const Contactos = () => {
                   <input
                     type="text"
                     name="telefono"
+                    placeholder="221..."
                     required
                     className=" rounded-lg p-3 flex focus:outline-none border-2 border-gray-400"
                   />
@@ -83,6 +85,7 @@ const Contactos = () => {
                   <input
                     type="email"
                     name="email"
+                    placeholder="ejemplo@email.com"
                     required
                     className=" rounded-lg p-3 flex focus:outline-none border-2 border-gray-400"
                   />
@@ -93,6 +96,7 @@ const Contactos = () => {
                   </label>
                   <textarea
                     name="mensaje"
+                    placeholder="Hola estoy interesado en tu perfil..."
                     required
                     rows="10"
                     className="rounded-lg p-3 resize-none flex focus:outline-none border-2 border-gray-400"
