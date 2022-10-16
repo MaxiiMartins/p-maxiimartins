@@ -9,11 +9,8 @@ const Habilidades = () => {
         <h2 className="text-5xl mod:text-7xl tracking-wider uppercase text-black font-bold">
           HABILIDADES
         </h2>
-        <p className="py-4 max-w-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, delectus
-          doloremque dicta corporis repudiandae, facilis eligendi quis
-        </p>
-        <div className="grid lg:grid-cols-4 gap-8">
+        <p className="py-4 max-w-lg"></p>
+        <div className="grid lg:grid-cols-4 gap-8 ">
             <HabilidadesCards/>
         </div>
       </div>
