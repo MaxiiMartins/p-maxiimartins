@@ -1,5 +1,8 @@
+import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
+import me from "../public/assets/yo.jpg";
+
 
 const SobreMi = () => {
   return (
@@ -9,8 +12,11 @@ const SobreMi = () => {
           Sobre mi
         </h2>
         <div className="shadow-xl shadow-gray-500 my-8 px-8">
-          <p className="py-4 max-w-2xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem corporis veritatis dolores eveniet, natus, non provident ratione facere eligendi totam ut magnam impedit ipsa incidunt modi doloribus repellendus eum.</p>
-          <p className="py-4 max-w-2xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem corporis veritatis dolores eveniet, natus, non provident ratione facere eligendi totam ut magnam impedit ipsa incidunt modi doloribus repellendus eum.</p>
+        <div className="w-96 h-96 sm:h-52 sm:w-52 mx-auto overflow-hidden rounded-xl shadow-lg shadow-gray-500">
+          <Image src={me} alt="yo" />
+        </div>
+          <p className="py-6 max-w-2xl mx-auto text-center text-lg leading-loose">Hola! Mi nombre es Maximiliano, vivo en Buenos Aires - Argentina. Me encanta descubrir nuevas tecnologías, buscar soluciones de programación y formar parte de un equipo de trabajo. Encontré mi pasión por la programación en 2018 y en 2022 me uní a una academia de programación con una metodología de bootcamp. En este momento estoy perfeccionando mis habilidades en el área de front-end, pero también me siento cómodo trabajando en el área de back-end.
+          </p>
         </div>
         <div className="flex items-center justify-center gap-10">
           <Button href={"/resume.pdf"} text={"CV"} target={true}/>
