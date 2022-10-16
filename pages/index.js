@@ -8,7 +8,7 @@ import Contactos from '../components/Contactos'
 
 export default function Home() {
   return (
-    <div>
+    <div className='text-gray-600'>
       <Head>
         <title>Maxi Martins</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
