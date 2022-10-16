@@ -11,6 +11,7 @@ import github from "../public/assets/habilidades/github.svg";
 import redux from "../public/assets/habilidades/redux.svg";
 import firebase from "../public/assets/habilidades/firebase.svg";
 import bootstrap from "../public/assets/habilidades/bootstrap.svg";
+import postgresql from "../public/assets/habilidades/postgresql.svg";
 
 const Habilidad = ({ src, nombre }) => {
   return (
@@ -35,6 +36,7 @@ const HabilidadesCards = () => {
       <Habilidad src={redux} nombre={"Redux"} />
       <Habilidad src={firebase} nombre={"Firebase"} />
       <Habilidad src={bootstrap} nombre={"Bootstrap"} />
+      <Habilidad src={postgresql} nombre={"PostgreSQL"} />
     </>
   );
 };
