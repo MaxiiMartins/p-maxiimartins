@@ -1,24 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import me from "../public/assets/yo.jpg";
 import Button from "./Button";
 
 const HomePage = () => {
+  const [text] = useTypewriter({
+    words: ["Front-End Developer", "Back-End Developer", "FullStack Developer"],
+    loop: 0
+  });
   return (
     <div id="inicio" className="h-screen w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        <div className="w-64 h-64 sm:h-36 sm:w-36 mx-auto overflow-hidden rounded-xl">
+        {/* <div className="w-96 h-96 sm:h-64 sm:w-44 mx-auto overflow-hidden rounded-xl">
           <Image src={me} alt="yo" />
-        </div>
+        </div> */}
         <h1 className="uppercase font-bold text-black text-7xl sm:text-5xl">
-          FULL STACK WEB DEVELOPER
+          {text}
+          <Cursor />
         </h1>
-        <p className=" text-gray-600 text-xl max-w-sm max-auto sm:text-base ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-          adipisci non error cupiditate id nisi voluptatum accusantium in neque
-          veniam recusandae, unde vel. Autem possimus quidem, labore excepturi
-          nesciunt illum!
+        <p className=" text-gray-600 w-screen text-center text-xl max-w-[450px] max-auto sm:text-lg ">
+          Soy un desarrollador que disfruta la creación de proyectos. Siempre en movimiento para mejorar las buenas prácticas. Me oriento más hacia el Front-End y busco el conseguir más experiencia y aprender nuevas tecnologías para mejorar más en esta parte del mundo IT.
         </p>
         <Button href={"/#sobre-mi"} text={"saber mas"} />
       </div>
