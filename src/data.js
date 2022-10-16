@@ -10,7 +10,7 @@ const proyectos = [
     id: 1,
     title: "Turnos odontologia",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum earum ad ea! Impedit odio doloremque sequi corporis eligendi beatae atque quos",
+      "Es una pagina de un Consultorio Odontológico en donde los pacientes puedan pedir sus turnos online y tendra un panel donde podran administrar los turnos (EN DESARROLLO)",
     src: odontologia,
     url: "/turnos-odontologia",
     deploy: "https://turnos-odontologia.vercel.app/",
@@ -20,7 +20,7 @@ const proyectos = [
     id: 2,
     title: "Aplicacion del clima",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum earum ad ea! Impedit odio doloremque sequi corporis eligendi beatae atque quos",
+      "Cree un Widget para poder consultar el clima de tu cuidad y te muestra la ubicacion. ",
     src: clima,
     url: "/app-clima",
     deploy: "",
@@ -39,7 +39,7 @@ const proyectos = [
     id: 4,
     title: "Dogs",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum earum ad ea! Impedit odio doloremque sequi corporis eligendi beatae atque quos",
+      "Es una SPA (Single Page Application) con consumo de API (thedogapi.com) y una Base de datos propia. Podrás buscar una raza y ver más detalles de cada una también tendrás la posibilidad de crear una nueva raza.",
     src: dog,
     url: "/dogs",
     deploy: "https://dogs-app-murex.vercel.app/",
@@ -49,7 +49,7 @@ const proyectos = [
     id: 5,
     title: "Sneakers E-Commerce",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum earum ad ea! Impedit odio doloremque sequi corporis eligendi beatae atque quos",
+      "Aplicacion web para la compra de zapatillas. Soporta pago con QR, MercadoPago y PayPal. Dispone tanto de un panel de usuario donde revisar perfil, favoritos, carrito de compra e historial de compras, como de un panel de administrador con estadísticas de ventas, stock, categorías y usuarios donde crear, buscar, editar o eliminar cualquiera de los anteriores.",
     src: sneakers,
     url: "/sneakers-ecommerce",
     deploy: "https://sneakers-xxre.vercel.app/",
@@ -59,7 +59,7 @@ const proyectos = [
     id: 6,
     title: "pelisflix",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum earum ad ea! Impedit odio doloremque sequi corporis eligendi beatae atque quos",
+      "Es una pagina donde podras buscar las peliculas y series favoritas. El diseño esta orientado a una de las plataforma de streaming mas famosas. (EN DESARROLLO)",
     src: peliculas,
     url: "/Pelisflix",
     deploy: "",
