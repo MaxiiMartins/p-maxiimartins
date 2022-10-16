@@ -29,6 +29,7 @@ const HabilidadesCards = () => {
       <Habilidad src={css} nombre={"CSS"} />
       <Habilidad src={js} nombre={"Javascript"} />
       <Habilidad src={reactjs} nombre={"React js"} />
+      <Habilidad src={reactjs} nombre={"React Native"} />
       <Habilidad src={nextjs} nombre={"Next js"} />
       <Habilidad src={nodejs} nombre={"Node js"} />
       <Habilidad src={tailwind} nombre={"Tailwind"} />
