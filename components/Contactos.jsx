@@ -22,21 +22,21 @@ const Contactos = () => {
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
               <Link href="https://www.github.com/MaxiiMartins/">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer  hover:text-[#505050] duration-300 ease-in">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 text-black p-3 cursor-pointer  hover:text-[#505050] duration-300 ease-in">
                     <FaGithub size={30} />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.linkedin.com/in/maxiimartins/">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer  hover:text-[#00a0dc] duration-300 ease-in">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 text-black p-3 cursor-pointer  hover:text-[#00a0dc] duration-300 ease-in">
                     <FaLinkedin size={30} />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.instagram.com/maxii.martins/">
                 <a target="_blank" rel="noopener noreferrer">
-                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer hover:text-[#c13584] duration-300 ease-in">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-gray-600 text-black p-3 cursor-pointer hover:text-[#c13584] duration-300 ease-in">
                     <FaInstagram size={30} />
                   </div>
                 </a>
