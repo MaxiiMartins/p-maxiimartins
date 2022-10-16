@@ -8,8 +8,7 @@ const Proyectos = () => {
     <div id="proyectos" className="w-full" >
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl mod:text-7xl tracking-wider uppercase text-black font-bold" >Proyectos</h2>
-        <p className="py-4 max-w-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, delectus doloremque dicta corporis repudiandae, facilis eligendi quis perspiciatis tempore fugit natus tenetur commodi voluptate. Fuga esse sed illum odit praesentium.
-        Exercitationem, similique! Incidunt, blanditiis nesciunt veritatis nam distinctio dolorum aut eius iste doloribus quod, harum obcaecati rem quibusdam architecto molestiae quas natus magnam eum aperiam libero maiores, voluptatum ipsum labore?</p>
+        <p className="py-4 max-w-lg" >En esta seccion podras ver los ultimos proyectos realizados y si estas interesado en ver de mis proyectos hacer click en Ver todos </p>
         <div className="max-w-5xl mx-auto my-5 grid md:grid-cols-2 gap-10">
         {
           proy?.slice(0,2).map(({title,src,url})=>(
