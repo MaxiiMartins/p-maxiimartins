@@ -13,9 +13,6 @@ const HomePage = () => {
   return (
     <div id="inicio" className="h-screen w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-        {/* <div className="w-96 h-96 sm:h-64 sm:w-44 mx-auto overflow-hidden rounded-xl">
-          <Image src={me} alt="yo" />
-        </div> */}
         <h1 className="uppercase font-bold text-black md:text-7xl sm:text-5xl text-5xl">
           {text}
           <Cursor />
