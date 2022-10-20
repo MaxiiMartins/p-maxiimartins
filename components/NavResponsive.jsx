@@ -38,7 +38,7 @@ const NavResponsive = ({ navegacion, setNavegacion, links }) => {
           {links.map((link, index) => {
             let href = link === "sobre mi" ? link.split(" ").join("-") : link;
             return (
-              <Link key={index} href={`/#${href}`}>
+              <Link key={index} href={href === "inicio" ?"/" :`/#${href}`}>
                 <li
                   onClick={() => setNavegacion(false)}
                   className="py-4 text-2xl tracking-wider cursor-pointer hover:text-red-800 duration-300 ease-in"
