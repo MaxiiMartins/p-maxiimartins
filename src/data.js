@@ -57,7 +57,7 @@ const proyectos = [
   },
   {
     id: 6,
-    title: "pelisflix",
+    title: "Pelisflix",
     description:
       "Es una pagina donde podras buscar las peliculas y series favoritas. El diseño esta orientado a una de las plataforma de streaming mas famosas. (EN DESARROLLO)",
     src: peliculas,
