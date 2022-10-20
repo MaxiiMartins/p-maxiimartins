@@ -16,7 +16,7 @@ const HomePage = () => {
         {/* <div className="w-96 h-96 sm:h-64 sm:w-44 mx-auto overflow-hidden rounded-xl">
           <Image src={me} alt="yo" />
         </div> */}
-        <h1 className="uppercase font-bold text-black text-7xl sm:text-5xl">
+        <h1 className="uppercase font-bold text-black md:text-7xl sm:text-5xl text-5xl">
           {text}
           <Cursor />
         </h1>
