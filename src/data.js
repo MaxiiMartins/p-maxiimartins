@@ -57,11 +57,11 @@ const proyectos = [
   },
   {
     id: 6,
-    title: "Pelisflix",
+    title: "M-flix",
     description:
       "Es una pagina donde podras buscar las peliculas y series favoritas. El diseño esta orientado a una de las plataforma de streaming mas famosas. (EN DESARROLLO)",
     src: peliculas,
-    url: "/Pelisflix",
+    url: "/mflix",
     deploy: "",
     link: "https://github.com/MaxiiMartins/"
   },
