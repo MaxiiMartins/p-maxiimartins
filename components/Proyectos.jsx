@@ -17,7 +17,7 @@ const Proyectos = () => {
           }
         </div>
         <div className="flex items-center justify-center" >
-        <Button href={"/proyectos"} text={"ver todos"} />
+        <Button href={"/home/proyectos"} text={"ver todos"} />
         </div>
       </div>
     </div>

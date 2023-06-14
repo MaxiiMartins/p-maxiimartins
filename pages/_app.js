@@ -1,10 +1,10 @@
-import Navbar from '../components/Navbar'
+// import Navbar from '../components/Navbar'
 import '../styles/globals.css'
 import EnDesarrollo from './../components/EnDesarrollo';
 
 function MyApp({ Component, pageProps }) {
   return (<>
-    <Navbar />
+    {/* <Navbar /> */}
     <Component {...pageProps} />
   </>
   )

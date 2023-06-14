@@ -2,9 +2,9 @@ import React from "react";
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
-import Button from "../../components/Button";
+import Button from "../../../components/Button";
 import Head from "next/head";
-import proyectos from "../../src/data";
+import proyectos from "../../../src/data";
 
 //con esto generamos los paths !!
 export async function getStaticPaths() {

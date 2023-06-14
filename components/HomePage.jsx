@@ -11,7 +11,7 @@ const HomePage = () => {
     loop: 0
   });
   return (
-    <div id="inicio" className="h-screen w-full text-center">
+    <div id="inicio" className="h-screen w-full text-center bg-transparent"  >
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
         <h1 className="uppercase font-bold text-black md:text-7xl sm:text-5xl text-5xl">
           {text}
