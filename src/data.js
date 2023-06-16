@@ -5,8 +5,29 @@ import dog from "../public/images/proyectos/pidogs.JPG";
 import sneakers from "../public/images/proyectos/ecommerce.JPG";
 import peliculas from "../public/images/proyectos/peliculas.JPG";
 import ticketfan from "../public/images/proyectos/ticketfan.jpg";
+import goandstay from "../public/images/proyectos/goandstay.png";
+import twitterclone from "../public/images/proyectos/twitterclone.png";
 
 const proyectos = [
+  {
+    id: 6,
+    title: "Twitter Clone",
+    description:"En el proyecto clon de Twitter, trabajé en el área de frontend como parte del equipo de desarrollo. Mi contribución se enfocó en el desarrollo de componentes para la página de inicio, donde implementé funciones como crear y mostrar tweets, incluyendo fotos y ubicaciones, así como eliminar, dar 'me gusta' y comentar en los tweets. Además, implementé la detección de hashtags y la advertencia de contenido inapropiado. Asimismo, me aseguré de que los componentes fueran responsivos y se adaptaran a diferentes dispositivos para proporcionar una experiencia de usuario óptima.",
+    src: twitterclone,
+    url: "/twitter-clon",
+    deploy: "https://twitter-nocountry-production.up.railway.app/",
+    link: "https://github.com/No-Country/s8-07-t-node-react-twitter"
+  },
+  {
+    id: 21,
+    title: "Go && Stay",
+    description:
+      "Go && Stay es un sitio web de alquiler de alojamientos donde podrá encontrar de forma rápida, sencilla y segura, el hospedaje ideal en el destino de sus sueños. Tenemos alojamientos increíbles de los cuales usted podrá elegir el que más se acople a sus necesidades, haciendo que su estadía cuente con el hogar perfecto cuando está lejos de casa.",
+    src: goandstay,
+    url: "/goandstay",
+    deploy: "",
+    link: "https://github.com/No-Country/C10-G8-JavaReact"
+  },
   {
     id: 1,
     title: "Ticket-FAN",
