@@ -20,7 +20,6 @@ const SobreMi = () => {
           </p>
         </div>
         <div className="flex items-center justify-center gap-10">
-          <Button href={"/resume.pdf"} text={"CV"} target={true}/>
           <Button href={"/proyectos"} text={"mis proyectos"} />
         </div>
       </div>
