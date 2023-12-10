@@ -7,8 +7,28 @@ import peliculas from "../public/images/proyectos/peliculas.JPG";
 import ticketfan from "../public/images/proyectos/ticketfan.jpg";
 import goandstay from "../public/images/proyectos/goandstay.png";
 import twitterclone from "../public/images/proyectos/twitterclone.png";
+import encuestas from "../public/images/proyectos/encuestas.png";
+import prode from "../public/images/proyectos/prode.png";
 
 const proyectos = [
+  {
+    id: 645,
+    title: "Prode | Tres Estrellas",
+    description:"ESTAMOS CONTRUYENDO EL MEJOR LUGAR DONDE PRODRAS PONER A PRUEBA TUS HABILIDADES FUTBOLERA Y GANAR PLATA MIENTRAS TE DIVIERTES.",
+    src: prode,
+    url: "/prode",
+    deploy: "",
+    link: ""
+  },
+  {
+    id: 231,
+    title: "Encuestas de Reacciones",
+    description:"'Encuestas de Reacciones' te brinda la posibilidad de crear imágenes de encuestas personalizadas, donde podrás elegir la pregunta o el tema a encuestar y dar opciones de respuesta utilizando las reacciones de LinkedIn, como Recomendar 👍, Celebrar 🎉, Interesante 💡, entre otras. Estas encuestas visualmente atractivas captarán la atención de tu red de LinkedIn y fomentarán la participación activa.",
+    src: encuestas,
+    url: "/encuestas",
+    deploy: "https://encuestas-de-reacciones.vercel.app/",
+    link: ""
+  },
   {
     id: 6,
     title: "Twitter Clone",
